@@ -2,12 +2,12 @@
 Server-Client socket chat
 
 ### Usage
-To compile and execute chatserve.py, enter:\
-	python chatserve.py [portnumber]\
+Server-side:\
+	python chatserve.py [portnumber]
 	
-To compile chatclient.c, enter:\
+Client-side:\
 	gcc -o chatclient chatclient.c\
-	chatclient [server1-hostname] [portnumber]\
+	chatclient [server1-hostname] [portnumber]
 
 To exit program:\
 	\quit \
